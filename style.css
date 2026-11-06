@@ -1,0 +1,151 @@
+/* style.css - ملف التنسيق الموحد للموقع */
+
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+}
+
+/* Header */
+#header {
+    background-color: #1b365d;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+}
+
+#header p {
+    margin: 0;
+    font-size: 14px;
+    color: #d0dbe5;
+}
+
+/* Navbar */
+#navbar {
+    background-color: #0b1d3a;
+    overflow: hidden;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar ul li {
+    display: inline-block;
+}
+
+#navbar ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.active {
+    background-color: #0066cc;
+}
+
+/* Main Container */
+#container {
+    width: 85%;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+/* Box & Cards */
+.box {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.box h2 {
+    color: #1b365d;
+    font-size: 18px;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.box p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Tables */
+table.student-table,
+table.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table.student-table th,
+table.data-table th {
+    background-color: #1b365d;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+table.student-table td,
+table.data-table td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+}
+
+table.student-table tr:nth-child(even),
+table.data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Link Box */
+.link-box {
+    background-color: #e6f2ff;
+    border: 1px solid #b3d7ff;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.link-box a {
+    color: #0056b3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-box a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+#footer {
+    background-color: #1b365d;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+#footer p {
+    margin: 0;
+}
